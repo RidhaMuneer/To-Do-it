@@ -7,7 +7,7 @@ body{
 }
 
 div{
-    border : 1px black solid;
+    /* border : 1px black solid; */
     width: 100%;
 }
 
@@ -16,7 +16,6 @@ div{
 }
 
 .header{
-    border-bottom: 1px black solid;
     width: 100%;
 }
 
@@ -31,8 +30,24 @@ div{
     flex-direction: column;
 }
 
-.tasks-section{
+#tasks-section{
     width: 80%;
+    padding: 10px;
+}
+
+#add-task-button{
+    padding-top: 15px;
+    border: 0px;
+    background-color: transparent;
+    font-size: xx-large;
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+    gap: 50%;
 }
 
 img{
@@ -56,4 +71,11 @@ img{
     gap: 10px;
     align-content: center;
     justify-content: flex-start;
+}
+
+#tasks-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }

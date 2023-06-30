@@ -16,7 +16,7 @@
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body{\n    display: flex;\n    flex-direction: column;\n    align-items: baseline;\n    margin: 0;\n    font-family: 'Poppins', sans-serif;\n}\n\ndiv{\n    border : 1px black solid;\n    width: 100%;\n}\n\n.header-name{\n    margin-left: 30px;\n}\n\n.header{\n    border-bottom: 1px black solid;\n    width: 100%;\n}\n\n.main-body{\n    display: flex;\n    flex-direction: row;\n}\n\n.menu-section{\n    width: 20%;\n    display: flex;\n    flex-direction: column;\n}\n\n.tasks-section{\n    width: 80%;\n}\n\nimg{\n    width: 40px;\n    height: 40px;\n    margin-top: 10px;\n    padding-left: 25px;\n}\n\n.static-option{\n    display: flex;\n    flex-direction: row;\n    gap: 10px;\n    align-content: center;\n    justify-content: flex-start;\n}\n\n.project-option{\n    display: flex;\n    flex-direction: row;\n    gap: 10px;\n    align-content: center;\n    justify-content: flex-start;\n}\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://to-do-it/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body{\n    display: flex;\n    flex-direction: column;\n    align-items: baseline;\n    margin: 0;\n    font-family: 'Poppins', sans-serif;\n}\n\ndiv{\n    /* border : 1px black solid; */\n    width: 100%;\n}\n\n.header-name{\n    margin-left: 30px;\n}\n\n.header{\n    width: 100%;\n}\n\n.main-body{\n    display: flex;\n    flex-direction: row;\n}\n\n.menu-section{\n    width: 20%;\n    display: flex;\n    flex-direction: column;\n}\n\n#tasks-section{\n    width: 80%;\n    padding: 10px;\n}\n\n#add-task-button{\n    padding-top: 15px;\n    border: 0px;\n    background-color: transparent;\n    font-size: xx-large;\n}\n\n#nav-bar{\n    display: flex;\n    flex-direction: row;\n    align-items: baseline;\n    justify-content: space-around;\n    gap: 50%;\n}\n\nimg{\n    width: 40px;\n    height: 40px;\n    margin-top: 10px;\n    padding-left: 25px;\n}\n\n.static-option{\n    display: flex;\n    flex-direction: row;\n    gap: 10px;\n    align-content: center;\n    justify-content: flex-start;\n}\n\n.project-option{\n    display: flex;\n    flex-direction: row;\n    gap: 10px;\n    align-content: center;\n    justify-content: flex-start;\n}\n\n#tasks-container{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 10px;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://to-do-it/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -129,6 +129,28 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/createTask.js":
+/*!***************************!*\
+  !*** ./src/createTask.js ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ addTaskWindow)\n/* harmony export */ });\n/* harmony import */ var _task_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./task.js */ \"./src/task.js\");\n\n\nfunction addTaskWindow(){\n    \n}\n\n//# sourceURL=webpack://to-do-it/./src/createTask.js?");
+
+/***/ }),
+
+/***/ "./src/dailyTask.js":
+/*!**************************!*\
+  !*** ./src/dailyTask.js ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ dailyTaskWindow)\n/* harmony export */ });\n/* harmony import */ var _createTask_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createTask.js */ \"./src/createTask.js\");\n\n\nfunction dailyTaskWindow(){\n    const dailyTaskContainer = document.getElementById('tasks-section');\n\n    const navBar = document.createElement('div');\n    navBar.id = 'nav-bar';\n\n    //creating the header for the daily task window.\n    const header = document.createElement('h3');\n    header.textContent = 'Daily Tasks';\n\n    navBar.appendChild(header);\n\n    //creating the add task button.\n    const addTaskButton = document.createElement('button');\n    addTaskButton.id = 'add-task-button';\n    addTaskButton.textContent = '+';\n    addTaskButton.addEventListener('click', function(e){\n        (0,_createTask_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n    });\n\n    navBar.appendChild(addTaskButton);\n\n    dailyTaskContainer.appendChild(navBar);\n}\n\n//# sourceURL=webpack://to-do-it/./src/dailyTask.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -136,7 +158,29 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n\nconsole.log(\"Hello world!\");\n\n//# sourceURL=webpack://to-do-it/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _dailyTask_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./dailyTask.js */ \"./src/dailyTask.js\");\n/* harmony import */ var _projectTask_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./projectTask.js */ \"./src/projectTask.js\");\n\n\n\n\n\nconst dailyTask = document.getElementById('daily-task');\ndailyTask.addEventListener('click', function () {\n    (0,_dailyTask_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n});\n\nconst projectTask = document.getElementById('project-task');\nprojectTask.addEventListener('click', function () {\n    (0,_projectTask_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])();\n});\n\n//# sourceURL=webpack://to-do-it/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/projectTask.js":
+/*!****************************!*\
+  !*** ./src/projectTask.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ projectTaskWindow)\n/* harmony export */ });\n/* harmony import */ var _task_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./task.js */ \"./src/task.js\");\n\n\nfunction projectTaskWindow(){\n    console.log('projectTaskWindow');\n}\n\n//# sourceURL=webpack://to-do-it/./src/projectTask.js?");
+
+/***/ }),
+
+/***/ "./src/task.js":
+/*!*********************!*\
+  !*** ./src/task.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Task)\n/* harmony export */ });\nclass Task{\n    #title;\n    #description;\n    #dueDate;\n    #priority;\n    constructor(title, description, dueDate, priority){\n        this.#title = title;\n        this.#description = description;\n        this.#dueDate = dueDate;\n        this.#priority = priority;\n    }\n    getTitle(){\n        return this.title;\n    }\n    getDescription(){\n        return this.description;\n    }\n    getDueDate(){\n        return this.dueDate;\n    }\n    getPriority(){\n        return this.priority;\n    }\n    setPriority(priority){\n        this.priority = priority;\n    }\n    setDueDate(dueDate){\n        this.dueDate = dueDate;\n    }\n    setTitle(title){\n        this.title = title;\n    }\n    setDescription(description){\n        this.description = description;\n    }\n}\n\n//# sourceURL=webpack://to-do-it/./src/task.js?");
 
 /***/ })
 
