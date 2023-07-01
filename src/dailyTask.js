@@ -1,10 +1,7 @@
 import addTaskWindow from './createTask.js';
 
 export default function dailyTaskWindow(){
-    const dailyTaskContainer = document.getElementById('tasks-section');
-
-    const navBar = document.createElement('div');
-    navBar.id = 'nav-bar';
+    const navBar = document.getElementById('nav-bar');
 
     //creating the header for the daily task window.
     const header = document.createElement('h3');
@@ -16,11 +13,9 @@ export default function dailyTaskWindow(){
     const addTaskButton = document.createElement('button');
     addTaskButton.id = 'add-task-button';
     addTaskButton.textContent = '+';
-    addTaskButton.addEventListener('click', function(e){
+    addTaskButton.addEventListener('click', function(){
         addTaskWindow();
     });
 
     navBar.appendChild(addTaskButton);
-
-    dailyTaskContainer.appendChild(navBar);
 }

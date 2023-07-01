@@ -4,6 +4,7 @@ body{
     align-items: baseline;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    background-color: #05445E;
 }
 
 div{
@@ -13,10 +14,12 @@ div{
 
 .header-name{
     margin-left: 30px;
+    color: #D4F1F4;
 }
 
 .header{
     width: 100%;
+    border: 1px #189AB4 solid;
 }
 
 .main-body{
@@ -25,14 +28,18 @@ div{
 }
 
 .menu-section{
+    padding-top: 15px;
     width: 20%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    border-right: 1px #189AB4 solid;
 }
 
 #tasks-section{
     width: 80%;
-    padding: 10px;
+    padding: 20px;
+    color: #D4F1F4;
 }
 
 #add-task-button{
@@ -40,6 +47,7 @@ div{
     border: 0px;
     background-color: transparent;
     font-size: xx-large;
+    color: #D4F1F4;
 }
 
 #nav-bar{
@@ -50,27 +58,32 @@ div{
     gap: 50%;
 }
 
-img{
-    width: 40px;
-    height: 40px;
-    margin-top: 10px;
+svg{
+    width: 35px;
+    height: 35px;
+    margin-top: 14px;
     padding-left: 25px;
+    fill: #D4F1F4 !important;
+    stroke: #D4F1F4;
 }
 
 .static-option{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 15px;
     align-content: center;
     justify-content: flex-start;
+    border-bottom: 1px #189AB4 solid;
+    padding-bottom: 10px;
 }
 
 .project-option{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 15px;
     align-content: center;
     justify-content: flex-start;
+    margin-top: 5px;
 }
 
 #tasks-container{
@@ -78,4 +91,61 @@ img{
     flex-direction: column;
     align-items: center;
     gap: 10px;
+}
+
+#addTaskPopup{
+    position: absolute;
+    top: 25vh;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 340px;
+    background-color: #189AB4;
+    padding: 30px;
+    color: #D4F1F4;
+}
+
+#description{
+    resize: none;
+}
+
+input, textarea{
+    padding: 10px;
+    border: 0px;
+    height: 30px;
+    width: 100%;
+    background-color: #D4F1F4;
+}
+select{
+    padding: 10px;
+    border: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: #D4F1F4;
+}
+
+#submit-button{
+    padding: 10px;
+    border: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: #05445E;
+    color: #D4F1F4;
+}
+
+.card-body{
+    border: 1px #189AB4 solid;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Five columns with equal width */
+    gap: 10px;
+    text-align: center;
+}
+
+.delete{
+    border: 0px;
+    color: #D4F1F4;
+    font-size: medium;
+    background-color: #05445E;
 }

@@ -1,3 +1,4 @@
+'use strict'
 export default class Task{
     #title;
     #description;
@@ -32,5 +33,19 @@ export default class Task{
     }
     setDescription(description){
         this.description = description;
+    }
+    render(title, description, dueDate, priority){
+        let html = 
+        ` <div class="card">
+            <div class="card-body">
+                <button type="button" class="delete" onclick="delete()">X</button>
+                <h5 class="card-title">${title}</h5>
+                <p class="card-text">${description}</p>
+                <p class="card-text">${dueDate}</p>
+                <p class="card-text">${priority}</p>
+            </div>
+        </div>`;
+        const container = document.getElementById('tasks-container');
+        container.insertAdjacentHTML('beforeend', html);
     }
 }
