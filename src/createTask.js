@@ -1,4 +1,5 @@
 import Task from './task.js';
+import {saveItem, loadStorage} from './localStorage';
 
 export default function addTaskWindow(){
 
@@ -35,8 +36,9 @@ export default function addTaskWindow(){
         let priority = addTaskPopup.elements['priority'].value;
 
         let newTask = new Task(title, description, taskDate, priority);
-        newTask.render(title, description, taskDate, priority);
+        newTask.render();
         document.body.removeChild(addTaskPopup);
+        saveItem(newTask);
     });
 
     document.body.appendChild(addTaskPopup);

@@ -2,6 +2,7 @@ import _ from 'lodash';
 import './style.css';
 import dailyTaskWindow from './dailyTask.js';
 import projectTaskWindow from './projectTask.js';
+import {loadStorage, saveItem} from './localStorage';
 
 let dailyClicked = false;
 let projectClicked = false;
@@ -11,6 +12,7 @@ dailyTask.addEventListener('click', function () {
         dailyTaskWindow();
         dailyClicked = true;
         projectClicked = false;
+        loadStorage();
     }
 });
 
